@@ -218,34 +218,12 @@ primary-hit.o: primary-hit.cpp /usr/include/stdc-predef.h primary-hit.h \
  /usr/include/glm/packing.hpp /usr/include/glm/detail/func_packing.inl \
  /usr/include/glm/detail/type_half.hpp \
  /usr/include/glm/detail/type_half.inl /usr/include/glm/integer.hpp \
- /usr/include/glm/detail/func_integer.inl /usr/include/c++/14/utility \
- /usr/include/c++/14/bits/stl_relops.h \
- /usr/include/c++/14/initializer_list /usr/include/c++/14/vector \
- /usr/include/c++/14/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/c++allocator.h \
- /usr/include/c++/14/bits/new_allocator.h /usr/include/c++/14/new \
- /usr/include/c++/14/bits/exception.h \
- /usr/include/c++/14/bits/memoryfwd.h \
- /usr/include/c++/14/bits/stl_construct.h \
- /usr/include/c++/14/bits/stl_uninitialized.h \
- /usr/include/c++/14/ext/alloc_traits.h \
- /usr/include/c++/14/bits/alloc_traits.h \
- /usr/include/c++/14/bits/stl_vector.h \
- /usr/include/c++/14/bits/stl_bvector.h \
- /usr/include/c++/14/bits/functional_hash.h \
- /usr/include/c++/14/bits/hash_bytes.h /usr/include/c++/14/bits/refwrap.h \
- /usr/include/c++/14/bits/invoke.h \
- /usr/include/c++/14/bits/stl_function.h \
- /usr/include/c++/14/backward/binders.h \
- /usr/include/c++/14/bits/range_access.h \
- /usr/include/c++/14/bits/vector.tcc \
- /usr/include/c++/14/bits/memory_resource.h \
- /usr/include/c++/14/bits/uses_allocator.h \
- /usr/include/c++/14/bits/uses_allocator_args.h /usr/include/c++/14/tuple \
- /usr/include/c++/14/string /usr/include/c++/14/bits/stringfwd.h \
- /usr/include/c++/14/bits/char_traits.h \
- /usr/include/c++/14/bits/postypes.h /usr/include/c++/14/cwchar \
- /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h \
+ /usr/include/glm/detail/func_integer.inl /usr/include/c++/14/iostream \
+ /usr/include/c++/14/ostream /usr/include/c++/14/ios \
+ /usr/include/c++/14/iosfwd /usr/include/c++/14/bits/stringfwd.h \
+ /usr/include/c++/14/bits/memoryfwd.h /usr/include/c++/14/bits/postypes.h \
+ /usr/include/c++/14/cwchar /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
@@ -253,14 +231,48 @@ primary-hit.o: primary-hit.cpp /usr/include/stdc-predef.h primary-hit.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+ /usr/include/c++/14/exception /usr/include/c++/14/bits/exception.h \
+ /usr/include/c++/14/bits/exception_ptr.h \
+ /usr/include/c++/14/bits/cxxabi_init_exception.h \
+ /usr/include/c++/14/typeinfo /usr/include/c++/14/bits/hash_bytes.h \
+ /usr/include/c++/14/new /usr/include/c++/14/bits/nested_exception.h \
+ /usr/include/c++/14/bits/char_traits.h \
  /usr/include/c++/14/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++locale.h \
  /usr/include/c++/14/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/14/iosfwd \
- /usr/include/c++/14/cctype /usr/include/ctype.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/14/cctype \
+ /usr/include/ctype.h /usr/include/c++/14/bits/ios_base.h \
+ /usr/include/c++/14/ext/atomicity.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/gthr.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/atomic_word.h \
+ /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/14/bits/locale_classes.h /usr/include/c++/14/string \
+ /usr/include/c++/14/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/c++allocator.h \
+ /usr/include/c++/14/bits/new_allocator.h \
  /usr/include/c++/14/bits/ostream_insert.h \
  /usr/include/c++/14/bits/cxxabi_forced.h \
- /usr/include/c++/14/bits/basic_string.h /usr/include/c++/14/string_view \
+ /usr/include/c++/14/bits/stl_function.h \
+ /usr/include/c++/14/backward/binders.h \
+ /usr/include/c++/14/bits/refwrap.h /usr/include/c++/14/bits/invoke.h \
+ /usr/include/c++/14/bits/range_access.h \
+ /usr/include/c++/14/initializer_list \
+ /usr/include/c++/14/bits/basic_string.h \
+ /usr/include/c++/14/ext/alloc_traits.h \
+ /usr/include/c++/14/bits/alloc_traits.h \
+ /usr/include/c++/14/bits/stl_construct.h /usr/include/c++/14/string_view \
+ /usr/include/c++/14/bits/functional_hash.h \
  /usr/include/c++/14/bits/string_view.tcc \
  /usr/include/c++/14/ext/string_conversions.h /usr/include/c++/14/cstdlib \
  /usr/include/c++/14/cstdio /usr/include/stdio.h \
@@ -277,27 +289,10 @@ primary-hit.o: primary-hit.cpp /usr/include/stdc-predef.h primary-hit.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/14/bits/charconv.h \
- /usr/include/c++/14/bits/basic_string.tcc /usr/include/c++/14/sstream \
- /usr/include/c++/14/istream /usr/include/c++/14/ios \
- /usr/include/c++/14/exception /usr/include/c++/14/bits/exception_ptr.h \
- /usr/include/c++/14/bits/cxxabi_init_exception.h \
- /usr/include/c++/14/typeinfo /usr/include/c++/14/bits/nested_exception.h \
- /usr/include/c++/14/bits/ios_base.h /usr/include/c++/14/ext/atomicity.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/gthr.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h \
- /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
- /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/atomic_word.h \
- /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
- /usr/include/c++/14/bits/locale_classes.h \
+ /usr/include/c++/14/bits/basic_string.tcc \
+ /usr/include/c++/14/bits/memory_resource.h \
+ /usr/include/c++/14/bits/uses_allocator.h \
+ /usr/include/c++/14/bits/uses_allocator_args.h /usr/include/c++/14/tuple \
  /usr/include/c++/14/bits/locale_classes.tcc \
  /usr/include/c++/14/system_error \
  /usr/include/x86_64-linux-gnu/c++/14/bits/error_constants.h \
@@ -310,46 +305,20 @@ primary-hit.o: primary-hit.cpp /usr/include/stdc-predef.h primary-hit.h \
  /usr/include/c++/14/bits/streambuf_iterator.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/ctype_inline.h \
  /usr/include/c++/14/bits/locale_facets.tcc \
- /usr/include/c++/14/bits/basic_ios.tcc /usr/include/c++/14/ostream \
- /usr/include/c++/14/bits/ostream.tcc \
- /usr/include/c++/14/bits/istream.tcc \
- /usr/include/c++/14/bits/sstream.tcc /usr/include/c++/14/iostream \
- ../libgi/rt.h ../libgi/material.h ../config.h ../driver/preview.h \
- ../libgi/gl/buffer.h /usr/include/GL/glew.h /usr/include/GL/glu.h \
- /usr/include/GL/gl.h /usr/include/GLFW/glfw3.h ../libgi/context.h \
- ../libgi/scene.h ../libgi/camera.h ../libgi/intersect.h \
- /usr/include/c++/14/map /usr/include/c++/14/bits/stl_tree.h \
- /usr/include/c++/14/ext/aligned_buffer.h \
- /usr/include/c++/14/bits/node_handle.h \
- /usr/include/c++/14/bits/stl_map.h \
- /usr/include/c++/14/bits/stl_multimap.h \
- /usr/include/c++/14/bits/erase_if.h /usr/include/c++/14/filesystem \
- /usr/include/c++/14/bits/fs_fwd.h /usr/include/c++/14/bits/chrono.h \
- /usr/include/c++/14/ratio /usr/include/c++/14/ctime \
- /usr/include/c++/14/bits/parse_numbers.h \
- /usr/include/c++/14/bits/fs_path.h /usr/include/c++/14/locale \
- /usr/include/c++/14/bits/locale_facets_nonio.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/time_members.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/14/bits/codecvt.h \
- /usr/include/c++/14/bits/locale_facets_nonio.tcc \
- /usr/include/c++/14/bits/locale_conv.h /usr/include/c++/14/iomanip \
- /usr/include/c++/14/bits/quoted_string.h /usr/include/c++/14/codecvt \
- /usr/include/c++/14/ext/concurrence.h \
- /usr/include/c++/14/bits/shared_ptr.h \
- /usr/include/c++/14/bits/shared_ptr_base.h \
- /usr/include/c++/14/bits/allocated_ptr.h \
- /usr/include/c++/14/bits/unique_ptr.h /usr/include/c++/14/bits/fs_dir.h \
- /usr/include/c++/14/bits/fs_ops.h ../libgi/random.h \
- /usr/include/c++/14/random /usr/include/c++/14/bits/random.h \
- /usr/include/c++/14/bits/uniform_int_dist.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/opt_random.h \
- /usr/include/c++/14/bits/random.tcc /usr/include/c++/14/numeric \
- /usr/include/c++/14/bits/stl_numeric.h \
- /usr/include/c++/14/pstl/glue_numeric_defs.h \
- /usr/include/c++/14/pstl/execution_defs.h ../libgi/framebuffer.h \
- /usr/include/png++/png.hpp /usr/include/png.h /usr/include/pnglibconf.h \
- /usr/include/pngconf.h /usr/include/setjmp.h \
+ /usr/include/c++/14/bits/basic_ios.tcc \
+ /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
+ /usr/include/c++/14/bits/istream.tcc /usr/include/c++/14/sstream \
+ /usr/include/c++/14/bits/sstream.tcc /usr/include/c++/14/utility \
+ /usr/include/c++/14/bits/stl_relops.h /usr/include/c++/14/vector \
+ /usr/include/c++/14/bits/stl_uninitialized.h \
+ /usr/include/c++/14/bits/stl_vector.h \
+ /usr/include/c++/14/bits/stl_bvector.h \
+ /usr/include/c++/14/bits/vector.tcc ../libgi/rt.h ../libgi/material.h \
+ ../config.h ../driver/preview.h ../libgi/gl/buffer.h \
+ /usr/include/GL/glew.h /usr/include/GL/glu.h /usr/include/GL/gl.h \
+ /usr/include/GLFW/glfw3.h ../libgi/color.h ../libgi/context.h \
+ ../libgi/framebuffer.h /usr/include/png++/png.hpp /usr/include/png.h \
+ /usr/include/pnglibconf.h /usr/include/pngconf.h /usr/include/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
  /usr/include/png++/config.hpp /usr/include/c++/14/stdlib.h \
  /usr/include/png++/types.hpp /usr/include/png++/error.hpp \
@@ -370,7 +339,7 @@ primary-hit.o: primary-hit.cpp /usr/include/stdc-predef.h primary-hit.h \
  /usr/include/png++/solid_pixel_buffer.hpp \
  /usr/include/png++/require_color_space.hpp \
  /usr/include/png++/convert_color_space.hpp /usr/include/png++/image.hpp \
- /usr/include/c++/14/fstream \
+ /usr/include/c++/14/fstream /usr/include/c++/14/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++io.h \
  /usr/include/c++/14/bits/fstream.tcc /usr/include/c++/14/functional \
@@ -379,9 +348,38 @@ primary-hit.o: primary-hit.cpp /usr/include/stdc-predef.h primary-hit.h \
  /usr/include/c++/14/bits/unordered_map.h \
  /usr/include/c++/14/bits/hashtable.h \
  /usr/include/c++/14/bits/hashtable_policy.h \
+ /usr/include/c++/14/ext/aligned_buffer.h \
  /usr/include/c++/14/bits/enable_special_members.h \
- /usr/include/c++/14/array /usr/include/c++/14/compare ../libgi/util.h \
- ../libgi/color.h ../libgi/global-context.h
+ /usr/include/c++/14/bits/node_handle.h \
+ /usr/include/c++/14/bits/erase_if.h /usr/include/c++/14/array \
+ /usr/include/c++/14/compare ../libgi/random.h /usr/include/c++/14/random \
+ /usr/include/c++/14/bits/random.h \
+ /usr/include/c++/14/bits/uniform_int_dist.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/opt_random.h \
+ /usr/include/c++/14/bits/random.tcc /usr/include/c++/14/numeric \
+ /usr/include/c++/14/bits/stl_numeric.h \
+ /usr/include/c++/14/pstl/glue_numeric_defs.h \
+ /usr/include/c++/14/pstl/execution_defs.h ../libgi/scene.h \
+ ../libgi/camera.h ../libgi/intersect.h /usr/include/c++/14/map \
+ /usr/include/c++/14/bits/stl_tree.h /usr/include/c++/14/bits/stl_map.h \
+ /usr/include/c++/14/bits/stl_multimap.h /usr/include/c++/14/filesystem \
+ /usr/include/c++/14/bits/fs_fwd.h /usr/include/c++/14/bits/chrono.h \
+ /usr/include/c++/14/ratio /usr/include/c++/14/ctime \
+ /usr/include/c++/14/bits/parse_numbers.h \
+ /usr/include/c++/14/bits/fs_path.h /usr/include/c++/14/locale \
+ /usr/include/c++/14/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/14/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/14/bits/locale_conv.h /usr/include/c++/14/iomanip \
+ /usr/include/c++/14/bits/quoted_string.h /usr/include/c++/14/codecvt \
+ /usr/include/c++/14/ext/concurrence.h \
+ /usr/include/c++/14/bits/shared_ptr.h \
+ /usr/include/c++/14/bits/shared_ptr_base.h \
+ /usr/include/c++/14/bits/allocated_ptr.h \
+ /usr/include/c++/14/bits/unique_ptr.h /usr/include/c++/14/bits/fs_dir.h \
+ /usr/include/c++/14/bits/fs_ops.h ../libgi/util.h \
+ ../libgi/global-context.h
 /usr/include/stdc-predef.h:
 primary-hit.h:
 ../libgi/algorithm.h:
@@ -643,37 +641,12 @@ primary-hit.h:
 /usr/include/glm/detail/type_half.inl:
 /usr/include/glm/integer.hpp:
 /usr/include/glm/detail/func_integer.inl:
-/usr/include/c++/14/utility:
-/usr/include/c++/14/bits/stl_relops.h:
-/usr/include/c++/14/initializer_list:
-/usr/include/c++/14/vector:
-/usr/include/c++/14/bits/allocator.h:
-/usr/include/x86_64-linux-gnu/c++/14/bits/c++allocator.h:
-/usr/include/c++/14/bits/new_allocator.h:
-/usr/include/c++/14/new:
-/usr/include/c++/14/bits/exception.h:
-/usr/include/c++/14/bits/memoryfwd.h:
-/usr/include/c++/14/bits/stl_construct.h:
-/usr/include/c++/14/bits/stl_uninitialized.h:
-/usr/include/c++/14/ext/alloc_traits.h:
-/usr/include/c++/14/bits/alloc_traits.h:
-/usr/include/c++/14/bits/stl_vector.h:
-/usr/include/c++/14/bits/stl_bvector.h:
-/usr/include/c++/14/bits/functional_hash.h:
-/usr/include/c++/14/bits/hash_bytes.h:
-/usr/include/c++/14/bits/refwrap.h:
-/usr/include/c++/14/bits/invoke.h:
-/usr/include/c++/14/bits/stl_function.h:
-/usr/include/c++/14/backward/binders.h:
-/usr/include/c++/14/bits/range_access.h:
-/usr/include/c++/14/bits/vector.tcc:
-/usr/include/c++/14/bits/memory_resource.h:
-/usr/include/c++/14/bits/uses_allocator.h:
-/usr/include/c++/14/bits/uses_allocator_args.h:
-/usr/include/c++/14/tuple:
-/usr/include/c++/14/string:
+/usr/include/c++/14/iostream:
+/usr/include/c++/14/ostream:
+/usr/include/c++/14/ios:
+/usr/include/c++/14/iosfwd:
 /usr/include/c++/14/bits/stringfwd.h:
-/usr/include/c++/14/bits/char_traits.h:
+/usr/include/c++/14/bits/memoryfwd.h:
 /usr/include/c++/14/bits/postypes.h:
 /usr/include/c++/14/cwchar:
 /usr/include/wchar.h:
@@ -685,18 +658,59 @@ primary-hit.h:
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
 /usr/include/x86_64-linux-gnu/bits/wchar2.h:
+/usr/include/c++/14/exception:
+/usr/include/c++/14/bits/exception.h:
+/usr/include/c++/14/bits/exception_ptr.h:
+/usr/include/c++/14/bits/cxxabi_init_exception.h:
+/usr/include/c++/14/typeinfo:
+/usr/include/c++/14/bits/hash_bytes.h:
+/usr/include/c++/14/new:
+/usr/include/c++/14/bits/nested_exception.h:
+/usr/include/c++/14/bits/char_traits.h:
 /usr/include/c++/14/bits/localefwd.h:
 /usr/include/x86_64-linux-gnu/c++/14/bits/c++locale.h:
 /usr/include/c++/14/clocale:
 /usr/include/locale.h:
 /usr/include/x86_64-linux-gnu/bits/locale.h:
-/usr/include/c++/14/iosfwd:
 /usr/include/c++/14/cctype:
 /usr/include/ctype.h:
+/usr/include/c++/14/bits/ios_base.h:
+/usr/include/c++/14/ext/atomicity.h:
+/usr/include/x86_64-linux-gnu/c++/14/bits/gthr.h:
+/usr/include/x86_64-linux-gnu/c++/14/bits/gthr-default.h:
+/usr/include/pthread.h:
+/usr/include/sched.h:
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+/usr/include/time.h:
+/usr/include/x86_64-linux-gnu/bits/time.h:
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+/usr/include/x86_64-linux-gnu/c++/14/bits/atomic_word.h:
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+/usr/include/c++/14/bits/locale_classes.h:
+/usr/include/c++/14/string:
+/usr/include/c++/14/bits/allocator.h:
+/usr/include/x86_64-linux-gnu/c++/14/bits/c++allocator.h:
+/usr/include/c++/14/bits/new_allocator.h:
 /usr/include/c++/14/bits/ostream_insert.h:
 /usr/include/c++/14/bits/cxxabi_forced.h:
+/usr/include/c++/14/bits/stl_function.h:
+/usr/include/c++/14/backward/binders.h:
+/usr/include/c++/14/bits/refwrap.h:
+/usr/include/c++/14/bits/invoke.h:
+/usr/include/c++/14/bits/range_access.h:
+/usr/include/c++/14/initializer_list:
 /usr/include/c++/14/bits/basic_string.h:
+/usr/include/c++/14/ext/alloc_traits.h:
+/usr/include/c++/14/bits/alloc_traits.h:
+/usr/include/c++/14/bits/stl_construct.h:
 /usr/include/c++/14/string_view:
+/usr/include/c++/14/bits/functional_hash.h:
 /usr/include/c++/14/bits/string_view.tcc:
 /usr/include/c++/14/ext/string_conversions.h:
 /usr/include/c++/14/cstdlib:
@@ -720,33 +734,10 @@ primary-hit.h:
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 /usr/include/c++/14/bits/charconv.h:
 /usr/include/c++/14/bits/basic_string.tcc:
-/usr/include/c++/14/sstream:
-/usr/include/c++/14/istream:
-/usr/include/c++/14/ios:
-/usr/include/c++/14/exception:
-/usr/include/c++/14/bits/exception_ptr.h:
-/usr/include/c++/14/bits/cxxabi_init_exception.h:
-/usr/include/c++/14/typeinfo:
-/usr/include/c++/14/bits/nested_exception.h:
-/usr/include/c++/14/bits/ios_base.h:
-/usr/include/c++/14/ext/atomicity.h:
-/usr/include/x86_64-linux-gnu/c++/14/bits/gthr.h:
-/usr/include/x86_64-linux-gnu/c++/14/bits/gthr-default.h:
-/usr/include/pthread.h:
-/usr/include/sched.h:
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-/usr/include/time.h:
-/usr/include/x86_64-linux-gnu/bits/time.h:
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-/usr/include/x86_64-linux-gnu/c++/14/bits/atomic_word.h:
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-/usr/include/c++/14/bits/locale_classes.h:
+/usr/include/c++/14/bits/memory_resource.h:
+/usr/include/c++/14/bits/uses_allocator.h:
+/usr/include/c++/14/bits/uses_allocator_args.h:
+/usr/include/c++/14/tuple:
 /usr/include/c++/14/bits/locale_classes.tcc:
 /usr/include/c++/14/system_error:
 /usr/include/x86_64-linux-gnu/c++/14/bits/error_constants.h:
@@ -763,11 +754,18 @@ primary-hit.h:
 /usr/include/x86_64-linux-gnu/c++/14/bits/ctype_inline.h:
 /usr/include/c++/14/bits/locale_facets.tcc:
 /usr/include/c++/14/bits/basic_ios.tcc:
-/usr/include/c++/14/ostream:
 /usr/include/c++/14/bits/ostream.tcc:
+/usr/include/c++/14/istream:
 /usr/include/c++/14/bits/istream.tcc:
+/usr/include/c++/14/sstream:
 /usr/include/c++/14/bits/sstream.tcc:
-/usr/include/c++/14/iostream:
+/usr/include/c++/14/utility:
+/usr/include/c++/14/bits/stl_relops.h:
+/usr/include/c++/14/vector:
+/usr/include/c++/14/bits/stl_uninitialized.h:
+/usr/include/c++/14/bits/stl_vector.h:
+/usr/include/c++/14/bits/stl_bvector.h:
+/usr/include/c++/14/bits/vector.tcc:
 ../libgi/rt.h:
 ../libgi/material.h:
 ../config.h:
@@ -777,52 +775,8 @@ primary-hit.h:
 /usr/include/GL/glu.h:
 /usr/include/GL/gl.h:
 /usr/include/GLFW/glfw3.h:
+../libgi/color.h:
 ../libgi/context.h:
-../libgi/scene.h:
-../libgi/camera.h:
-../libgi/intersect.h:
-/usr/include/c++/14/map:
-/usr/include/c++/14/bits/stl_tree.h:
-/usr/include/c++/14/ext/aligned_buffer.h:
-/usr/include/c++/14/bits/node_handle.h:
-/usr/include/c++/14/bits/stl_map.h:
-/usr/include/c++/14/bits/stl_multimap.h:
-/usr/include/c++/14/bits/erase_if.h:
-/usr/include/c++/14/filesystem:
-/usr/include/c++/14/bits/fs_fwd.h:
-/usr/include/c++/14/bits/chrono.h:
-/usr/include/c++/14/ratio:
-/usr/include/c++/14/ctime:
-/usr/include/c++/14/bits/parse_numbers.h:
-/usr/include/c++/14/bits/fs_path.h:
-/usr/include/c++/14/locale:
-/usr/include/c++/14/bits/locale_facets_nonio.h:
-/usr/include/x86_64-linux-gnu/c++/14/bits/time_members.h:
-/usr/include/x86_64-linux-gnu/c++/14/bits/messages_members.h:
-/usr/include/libintl.h:
-/usr/include/c++/14/bits/codecvt.h:
-/usr/include/c++/14/bits/locale_facets_nonio.tcc:
-/usr/include/c++/14/bits/locale_conv.h:
-/usr/include/c++/14/iomanip:
-/usr/include/c++/14/bits/quoted_string.h:
-/usr/include/c++/14/codecvt:
-/usr/include/c++/14/ext/concurrence.h:
-/usr/include/c++/14/bits/shared_ptr.h:
-/usr/include/c++/14/bits/shared_ptr_base.h:
-/usr/include/c++/14/bits/allocated_ptr.h:
-/usr/include/c++/14/bits/unique_ptr.h:
-/usr/include/c++/14/bits/fs_dir.h:
-/usr/include/c++/14/bits/fs_ops.h:
-../libgi/random.h:
-/usr/include/c++/14/random:
-/usr/include/c++/14/bits/random.h:
-/usr/include/c++/14/bits/uniform_int_dist.h:
-/usr/include/x86_64-linux-gnu/c++/14/bits/opt_random.h:
-/usr/include/c++/14/bits/random.tcc:
-/usr/include/c++/14/numeric:
-/usr/include/c++/14/bits/stl_numeric.h:
-/usr/include/c++/14/pstl/glue_numeric_defs.h:
-/usr/include/c++/14/pstl/execution_defs.h:
 ../libgi/framebuffer.h:
 /usr/include/png++/png.hpp:
 /usr/include/png.h:
@@ -866,6 +820,7 @@ primary-hit.h:
 /usr/include/png++/convert_color_space.hpp:
 /usr/include/png++/image.hpp:
 /usr/include/c++/14/fstream:
+/usr/include/c++/14/bits/codecvt.h:
 /usr/include/x86_64-linux-gnu/c++/14/bits/basic_file.h:
 /usr/include/x86_64-linux-gnu/c++/14/bits/c++io.h:
 /usr/include/c++/14/bits/fstream.tcc:
@@ -875,9 +830,52 @@ primary-hit.h:
 /usr/include/c++/14/bits/unordered_map.h:
 /usr/include/c++/14/bits/hashtable.h:
 /usr/include/c++/14/bits/hashtable_policy.h:
+/usr/include/c++/14/ext/aligned_buffer.h:
 /usr/include/c++/14/bits/enable_special_members.h:
+/usr/include/c++/14/bits/node_handle.h:
+/usr/include/c++/14/bits/erase_if.h:
 /usr/include/c++/14/array:
 /usr/include/c++/14/compare:
+../libgi/random.h:
+/usr/include/c++/14/random:
+/usr/include/c++/14/bits/random.h:
+/usr/include/c++/14/bits/uniform_int_dist.h:
+/usr/include/x86_64-linux-gnu/c++/14/bits/opt_random.h:
+/usr/include/c++/14/bits/random.tcc:
+/usr/include/c++/14/numeric:
+/usr/include/c++/14/bits/stl_numeric.h:
+/usr/include/c++/14/pstl/glue_numeric_defs.h:
+/usr/include/c++/14/pstl/execution_defs.h:
+../libgi/scene.h:
+../libgi/camera.h:
+../libgi/intersect.h:
+/usr/include/c++/14/map:
+/usr/include/c++/14/bits/stl_tree.h:
+/usr/include/c++/14/bits/stl_map.h:
+/usr/include/c++/14/bits/stl_multimap.h:
+/usr/include/c++/14/filesystem:
+/usr/include/c++/14/bits/fs_fwd.h:
+/usr/include/c++/14/bits/chrono.h:
+/usr/include/c++/14/ratio:
+/usr/include/c++/14/ctime:
+/usr/include/c++/14/bits/parse_numbers.h:
+/usr/include/c++/14/bits/fs_path.h:
+/usr/include/c++/14/locale:
+/usr/include/c++/14/bits/locale_facets_nonio.h:
+/usr/include/x86_64-linux-gnu/c++/14/bits/time_members.h:
+/usr/include/x86_64-linux-gnu/c++/14/bits/messages_members.h:
+/usr/include/libintl.h:
+/usr/include/c++/14/bits/locale_facets_nonio.tcc:
+/usr/include/c++/14/bits/locale_conv.h:
+/usr/include/c++/14/iomanip:
+/usr/include/c++/14/bits/quoted_string.h:
+/usr/include/c++/14/codecvt:
+/usr/include/c++/14/ext/concurrence.h:
+/usr/include/c++/14/bits/shared_ptr.h:
+/usr/include/c++/14/bits/shared_ptr_base.h:
+/usr/include/c++/14/bits/allocated_ptr.h:
+/usr/include/c++/14/bits/unique_ptr.h:
+/usr/include/c++/14/bits/fs_dir.h:
+/usr/include/c++/14/bits/fs_ops.h:
 ../libgi/util.h:
-../libgi/color.h:
 ../libgi/global-context.h:

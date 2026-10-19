@@ -3,6 +3,7 @@
 #include "random.h"
 
 #include <fstream>
+#include <glm/geometric.hpp>
 
 using namespace glm;
 using namespace std;
@@ -14,7 +15,19 @@ ray cam_ray(const camera &cam, int x, int y, vec2 offset) {
   // note: you can use the function `test_camrays' to export them as an obj
   // model and look at them in blender.
 
-  return ray(cam.pos, vec3(0, 0, -1));
+  // get vectors that span the image plane (right vector u and up vector v of
+  // the image plane of the camera)
+  vec3 u = cross(cam.up, cam.dir) / length(cross(cam.up, cam.dir));
+  vec3 v = cross(cam.dir, u) / length(cross(cam.dir, u));
+
+  // position of the pixel(x, y) on the image plane
+  vec3 pixel_pos = cam.pos + cam.dir +
+                   cam.near_w * ((float(2) * x) / cam.w - 1) * u +
+                   cam.near_h * ((float(2) * y) / cam.h - 1) * v;
+
+  vec3 dir = pixel_pos - cam.pos;
+
+  return ray(cam.pos, dir);
 }
 
 void test_camrays(const camera &camera, int stride) {
