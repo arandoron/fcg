@@ -57,16 +57,15 @@ vec3 local_illumination::sample_pixel(uint32_t x, uint32_t y) {
     // distance between light source and x
     // to_light is the non-normalized vector between light source and x
     // square root of the dot product of itself yields the length of that vector
-    float d = sqrt(dot(to_light, to_light));
+    float distance = sqrt(dot(to_light, to_light));
 
-    radiance = pl->power() * brdf->f(dg, w_o, w_i) / (d * d);
-    // TODO: nachfragen ob das hier nötig ist oder nicht, da es in der Lösung
-    // nicht zu finden ist (soweit ich sehen konnte)
+    radiance = pl->power() * brdf->f(dg, w_o, w_i) / (distance * distance);
 
     // lambert's cosine law
     // => multiply with cos(theta) to normalize a larger surface area being
     // "hit" if the light source hits the surface at an angle
     // => less intensity at those spots
+    // appears in the solution only for phong BRDF
     radiance = radiance * dot(dg.ns, w_i);
   }
   return radiance;
