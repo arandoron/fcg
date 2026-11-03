@@ -11,7 +11,8 @@ using namespace std;
 //! Set up a camera ray using cam.up, cam.dir, cam.w, cam.h (see \ref
 //! camera::update_frustum)
 ray cam_ray(const camera &cam, int x, int y, vec2 offset) {
-  // todo: compute a camera ray a given each pixel position.
+  // NOTE: Assignment 2
+  // todo: compute a camera ray given each pixel position.
   // note: you can use the function `test_camrays' to export them as an obj
   // model and look at them in blender.
 
