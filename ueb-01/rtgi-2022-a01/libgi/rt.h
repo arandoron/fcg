@@ -39,7 +39,7 @@ struct vertex {
   vec2 tc;
 };
 
-/*! \brief A trinalge references three vertices (from the scene's vertex data)
+/*! \brief A triangle references three vertices (from the scene's vertex data)
  *         as well as its surface properties (via material_id)
  */
 struct triangle {
