@@ -29,8 +29,26 @@ vec3 phong_specular_reflection::f(const diff_geom &geom, const vec3 &w_o,
                                   const vec3 &w_i) {
   if (!same_hemisphere(w_i, geom.ng))
     return vec3(0);
-  // todo
-  return vec3(0);
+  // NOTE: Assignment 2
+
+  // TODO: better solution for this?
+  vec3 double_ns = geom.ns;
+  double_ns.x = double_ns.x * 2;
+  double_ns.y = double_ns.y * 2;
+  double_ns.z = double_ns.z * 2;
+
+  // direction of reflection of the light (mirror of w_i)
+  vec3 w_r = double_ns * dot(geom.ns, w_i) - w_i;
+
+  // TODO: check this again what I have to return, also look into note in the
+  // assignment description
+  float shininess_value = exponent_from_roughness(geom.mat->roughness);
+
+  float reflection = pow(dot(w_r, w_o), shininess_value);
+  // normalize
+  reflection = ((shininess_value + 2) / 2 * pi) * reflection;
+
+  return reflection * geom.albedo();
 }
 
 // In the following, make sure that corner cases are taken care of (positive

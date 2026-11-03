@@ -60,6 +60,9 @@ vec3 local_illumination::sample_pixel(uint32_t x, uint32_t y) {
     float d = sqrt(dot(to_light, to_light));
 
     radiance = pl->power() * brdf->f(dg, w_o, w_i) / (d * d);
+    // TODO: nachfragen ob das hier nötig ist oder nicht, da es in der Lösung
+    // nicht zu finden ist (soweit ich sehen konnte)
+
     // lambert's cosine law
     // => multiply with cos(theta) to normalize a larger surface area being
     // "hit" if the light source hits the surface at an angle
