@@ -280,7 +280,6 @@ preview.o: preview.cpp /usr/include/stdc-predef.h preview.h \
  /usr/include/c++/14/bits/basic_string.tcc /usr/include/GLFW/glfw3.h \
  ../config.h ../libgi/global-context.h ../libgi/context.h \
  ../libgi/scene.h ../libgi/camera.h ../libgi/rt.h \
- /usr/include/c++/14/utility /usr/include/c++/14/bits/stl_relops.h \
  /usr/include/c++/14/ostream /usr/include/c++/14/ios \
  /usr/include/c++/14/exception /usr/include/c++/14/bits/exception_ptr.h \
  /usr/include/c++/14/bits/cxxabi_init_exception.h \
@@ -314,7 +313,8 @@ preview.o: preview.cpp /usr/include/stdc-predef.h preview.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/ctype_inline.h \
  /usr/include/c++/14/bits/locale_facets.tcc \
  /usr/include/c++/14/bits/basic_ios.tcc \
- /usr/include/c++/14/bits/ostream.tcc ../libgi/intersect.h \
+ /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/utility \
+ /usr/include/c++/14/bits/stl_relops.h ../libgi/intersect.h \
  ../libgi/material.h /usr/include/c++/14/map \
  /usr/include/c++/14/bits/stl_tree.h \
  /usr/include/c++/14/ext/aligned_buffer.h \
@@ -790,8 +790,6 @@ preview.h:
 ../libgi/scene.h:
 ../libgi/camera.h:
 ../libgi/rt.h:
-/usr/include/c++/14/utility:
-/usr/include/c++/14/bits/stl_relops.h:
 /usr/include/c++/14/ostream:
 /usr/include/c++/14/ios:
 /usr/include/c++/14/exception:
@@ -835,6 +833,8 @@ preview.h:
 /usr/include/c++/14/bits/locale_facets.tcc:
 /usr/include/c++/14/bits/basic_ios.tcc:
 /usr/include/c++/14/bits/ostream.tcc:
+/usr/include/c++/14/utility:
+/usr/include/c++/14/bits/stl_relops.h:
 ../libgi/intersect.h:
 ../libgi/material.h:
 /usr/include/c++/14/map:
