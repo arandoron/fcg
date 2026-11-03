@@ -59,14 +59,29 @@ vec3 local_illumination::sample_pixel(uint32_t x, uint32_t y) {
     // square root of the dot product of itself yields the length of that vector
     float distance = sqrt(dot(to_light, to_light));
 
-    radiance = pl->power() * brdf->f(dg, w_o, w_i) / (distance * distance);
+    // NOTE: Assignment 3
+    // incorporate shadows by only taking rays into account that don't have an
+    // intersection between x and the light source (otherwise don't let them
+    // contribute to the returned radiance)
 
-    // lambert's cosine law
-    // => multiply with cos(theta) to normalize a larger surface area being
-    // "hit" if the light source hits the surface at an angle
-    // => less intensity at those spots
-    // appears in the solution only for phong BRDF
-    radiance = radiance * dot(dg.ns, w_i);
+    // ray from x to the light source (takes the origin and direction, NOT
+    // destination vector)
+    ray shadow_ray(dg.x, w_i);
+    // TODO: what does this do exactly?
+    // this sets the max length(?) of the ray to the distance from x to the
+    // light (so that it doesn't overshoot behind the light source and takes
+    // triangles behind the light source into account for a hit)
+    shadow_ray.length_exclusive(distance);
+    if (!rc->scene.rt->any_hit(shadow_ray)) {
+      radiance = pl->power() * brdf->f(dg, w_o, w_i) / (distance * distance);
+
+      // lambert's cosine law
+      // => multiply with cos_theta to normalize a larger surface area being
+      // "hit" if the light source hits the surface at an angle
+      // => less intensity at those spots
+      // appears in the solution only for the phong BRDF
+      radiance = radiance * dot(dg.ns, w_i);
+    }
   }
   return radiance;
 }
